@@ -7,7 +7,7 @@ const Pokemon = ({ pok }) => {
 	const name = pok.name.charAt(0).toUpperCase() + pok.name.slice(1);
   const colors = ['violet', 'gray', 'blueviolet', 'pink','blue', 'green', 'rose']
   const randomColor = colors[Math.floor(Math.random() * colors.length)]
-  console.log(randomColor)
+  
 	useEffect(() => {
 		axios.get(pok.url).then(({ data }) => {
 			setPokemon({
