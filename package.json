@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "homepage": "https://maxeemja.github.io/pokemon-project",
   "scripts": {
+    "start": "vite",
     "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
